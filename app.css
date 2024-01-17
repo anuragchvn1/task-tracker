@@ -1,0 +1,77 @@
+/* App.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button.delete-btn {
+    background-color: #dc3545;
+  }
+  
+  button.update-btn {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  button.delete-btn,
+  button.update-btn {
+    padding: 6px 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.delete-btn:hover,
+  button.update-btn:hover {
+    opacity: 0.8;
+  }
+  
